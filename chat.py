@@ -86,11 +86,13 @@ class Server:
                 data = await self.loop.sock_recv(client, 10000)
                 if not data:
                     break
+                print(data)
 
                 if self.is_cmd(client, data):
                     print(data)
                 else:
                     self.broadcast(client, data)
+                    print(data)
             print('Connection closed.')
 
 chat = Server()
