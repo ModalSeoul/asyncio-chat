@@ -8,5 +8,5 @@ This is a simple Asyncio chat server written in Python 3.5. The command handling
 
 # Contact
 Feel free to open an issue or just dm/tweet at me.
-+[@ModalSeoul](https://Twitter.com/ModalSeoul)
++ [@ModalSeoul](https://Twitter.com/ModalSeoul)
 
